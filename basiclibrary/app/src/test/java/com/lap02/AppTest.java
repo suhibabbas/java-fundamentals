@@ -4,6 +4,12 @@
 package com.lap02;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
@@ -41,5 +47,41 @@ class AppTest {
             assertEquals(expectedResult[index],testResult[index]);
         }
 
+    }
+    @Test void analyzingWeatherDataTest(){
+        int[][] arr = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+        Set<Integer> expectedResult = new HashSet<>();
+
+        expectedResult.add(67);
+        expectedResult.add(68);
+        expectedResult.add(69);
+        expectedResult.add(63);
+
+        Set<Integer> testResult =App.analyzingWeatherData(arr);
+
+        assertEquals(expectedResult,testResult);
+
+    }
+
+    @Test void tallyTest(){
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+
+        String testResult =App.tally(votes);
+
+        assertEquals("Bush", testResult);
     }
 }
