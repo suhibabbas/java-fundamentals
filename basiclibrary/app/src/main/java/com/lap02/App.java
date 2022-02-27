@@ -12,9 +12,9 @@ public class App {
 
 
 //
-//        int[] arr = {2,4,6,3,-8};
-//        int n = 5;
-//
+        int[] arr = {2,4,6,3,0,3};
+        int n = 5;
+
 //        int[] x =  roll(0);
 //        if(x.length == 0){
 //            System.out.println("there are no rolls");
@@ -25,7 +25,7 @@ public class App {
 //        }
 
 //
-//        System.out.println(containsDuplicates(x));
+        System.out.println(containsDuplicates(arr));
 //        System.out.println(calculatingAverages(x));
 //        int[][] arr = {
 //                {66, 64, 58, 65, 71, 57, 60},
@@ -54,14 +54,14 @@ public class App {
 
     public static boolean containsDuplicates(int[] array){
         int count =0;
-        int currentVal =0;
          Arrays.sort(array);
-        for (int val:array ){
-            if (currentVal == val){
-                count++;
-            }
-            currentVal =val;
-        }
+
+         for(int index = 1; index < array.length;index++){
+             if(array[index - 1] == array[index]){
+                 count++;
+             }
+         }
+//
 
         return count > 0;
     }
