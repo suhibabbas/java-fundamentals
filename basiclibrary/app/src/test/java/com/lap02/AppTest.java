@@ -17,9 +17,9 @@ class AppTest {
     }
 
     @Test void containsDuplicatesTest(){
-        int[] test = {1,3,5,4,6,1};
+        int[] test = {};
         boolean testResult = App.containsDuplicates(test);
-        assertTrue(testResult);
+        assertFalse(testResult);
     }
 
     @Test void calculatingAveragesTest(){
@@ -35,7 +35,11 @@ class AppTest {
                 {55, 54, 60, 53, 59, 57, 61},
                 {65, 56, 55, 52, 55, 62, 57}
         };
-        int testResult = App.arraysAverages(arr);
-        assertEquals(57,testResult);
+        int[] testResult = App.arraysAverages(arr);
+        int[] expectedResult ={65, 56, 55, 52, 55, 62, 57};
+        for(int index = 0; index < expectedResult.length;index++){
+            assertEquals(expectedResult[index],testResult[index]);
+        }
+
     }
 }

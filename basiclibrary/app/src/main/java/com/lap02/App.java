@@ -10,27 +10,39 @@ public class App {
 
     public static void main(String[] args) {
 
-//        int[] x =  roll(5);
-//        for (int vla:x ){
-//            System.out.println(vla);
+
+//
+//        int[] arr = {2,4,6,3,-8};
+//        int n = 5;
+//
+//        int[] x =  roll(0);
+//        if(x.length == 0){
+//            System.out.println("there are no rolls");
+//        }else {
+//            for (int vla:x ){
+//                System.out.println(vla);
+//            }
 //        }
+
 //
 //        System.out.println(containsDuplicates(x));
-        int[] x = {1,3,5,4,6,1};
-        System.out.println(calculatingAverages(x));
+//        System.out.println(calculatingAverages(x));
 //        int[][] arr = {
 //                {66, 64, 58, 65, 71, 57, 60},
 //                {57, 65, 65, 70, 72, 65, 51},
 //                {55, 54, 60, 53, 59, 57, 61},
 //                {65, 56, 55, 52, 55, 62, 57}
 //        };
-//
+////
 //        System.out.println(arraysAverages(arr));
     }
 
-    public static int[] roll(int n) {
+
+
+    public static int[]  roll(int n) {
+
         Random rn = new Random();
-        int[] array = new int[5];
+        int[] array = new int[n];
 
         for (int index = 0; index < n; index++) {
             int dice = rn.nextInt(6) + 1;
@@ -65,7 +77,8 @@ public class App {
         return average;
     }
 
-    public static int arraysAverages(int[][] arrays){
+    public static int[] arraysAverages(int[][] arrays){
+
         int[] averages = new int[arrays.length];
         int count = 0;
         int count2 =0;
@@ -79,15 +92,21 @@ public class App {
             averages[count2] = count/arr.length;
             count2++;
             count =0;
-
         }
-        int average =0;
-       for (int index =1; index<averages.length;index++){
 
-           average = Math.min(averages[index - 1], averages[index]);
-       }
-       return average;
+        int i = 0;
+
+        for(int index = 1; index<averages.length;index++){
+            if(averages[index - 1] < averages[index]){
+                i = index - 1;
+            }else {
+                i = index;
+            }
+        }
+
+        int[] result = arrays[i];
+
+       return result;
     }
-
 }
 
