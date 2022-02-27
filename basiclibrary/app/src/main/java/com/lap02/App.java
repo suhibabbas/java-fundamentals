@@ -3,8 +3,10 @@
  */
 package com.lap02;
 
-import java.util.Random;
-import java.util.Arrays;
+import org.checkerframework.checker.units.qual.min;
+
+import javax.xml.crypto.Data;
+import java.util.*;
 
 public class App {
 
@@ -23,9 +25,7 @@ public class App {
 //                System.out.println(vla);
 //            }
 //        }
-
-//
-        System.out.println(containsDuplicates(arr));
+//        System.out.println(containsDuplicates(arr));
 //        System.out.println(calculatingAverages(x));
 //        int[][] arr = {
 //                {66, 64, 58, 65, 71, 57, 60},
@@ -35,6 +35,32 @@ public class App {
 //        };
 ////
 //        System.out.println(arraysAverages(arr));
+        int[][] weeklyMonthTemperatures = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Hedge");
+
+        Set<Integer> resutlt = analyzingWeatherData(weeklyMonthTemperatures);
+        for (int val:resutlt
+             ) {
+            System.out.println("Never saw temperature: "+val);
+        }
+
+        System.out.println(tally(votes) + " received the most votes!");
+
     }
 
 
@@ -107,6 +133,82 @@ public class App {
         int[] result = arrays[i];
 
        return result;
+    }
+
+    public static Set<Integer> analyzingWeatherData(int[][] weeklyMonthTemperatures){
+
+        int max = weeklyMonthTemperatures[0][0];
+        int min = weeklyMonthTemperatures[0][0];
+
+        for (int[] array:weeklyMonthTemperatures
+        ) {
+            for (int val:array
+            ) {
+                if(max <val){
+                    max = val;
+                }
+                if(min > val){
+                    min = val;
+                }
+            }
+        }
+
+        Set<Integer> notFound =new HashSet<>();
+        int count =0;
+
+        for(int i = min ; i <=max; i++){
+            for (int[] array:weeklyMonthTemperatures
+            ) {
+                for (int val:array
+                ) {
+                    if(i == val){
+                        count++;
+                    }
+                }
+            }
+            if(count == 0){
+                notFound.add(i);
+            }
+            count= 0;
+        }
+
+
+        System.out.println("High:"+max );
+        System.out.println("Low:"+ min );
+
+//        for (int val:notFound
+//             ) {
+//            return  "Never saw temperature: "+val;
+//        }
+
+
+        return notFound;
+    }
+
+    public static String tally(List<String> votes){
+
+        String winner ="" ;
+        String check;
+        int max = 0;
+        int count =0;
+
+        for (String vote:votes
+             ) {
+            check = vote;
+            for (String val:votes
+                 ) {
+                if(check == val){
+                    count++;
+                }
+            }
+            if(max <count){
+                max =count;
+                winner =check;
+            }
+            count =0;
+        }
+
+        return winner;
     }
 }
 
