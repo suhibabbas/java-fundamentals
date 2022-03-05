@@ -3,10 +3,15 @@
  */
 package maps.lab;
 
+import maps.lab.gates.gates;
+
 public class App {
 
     public static void main(String[] args) {
 
+        gates gate = new gates();
 
+//        gate.fileReader();
+        gate.filePathReader("gates");
     }
 }
