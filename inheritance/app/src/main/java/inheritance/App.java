@@ -14,30 +14,31 @@ public class App {
 
     public static void restaurants(){
 
-        Company restaurant = new Restaurant("Borgir" , 4);
+        Restaurant restaurant = new Restaurant("Pro Restaurant" , 4);
 
-        Restaurant restaurantCasted =(Restaurant) restaurant;
-        restaurantCasted.addCategory("Pizza",4);
 
-        for (String item:restaurantCasted.getCategory()
+        restaurant.addCategory("Pizza",4);
+        restaurant.addCategory("Borgir",5.25);
+
+        for (String item:restaurant.getCategory()
         ) {
             System.out.println(item);
         }
         List<Review> reviews= new ArrayList<>();
-        Review restaurantReview1 = new Review("amazing","suhib");
-        restaurantReview1.addStars(2,restaurant);
+        Review restaurantReview1 = new Review("amazing","suhib" ,2);
+        restaurantReview1.UpdateStars(restaurantReview1,restaurant);
         reviews.add(restaurantReview1);
 
-        Review restaurantReview2 = new Review("bad","Mohammad");
-        restaurantReview2.addStars(1,restaurant);
+        Review restaurantReview2 = new Review("bad","Mohammad",1);
+        restaurantReview2.UpdateStars(restaurantReview2,restaurant);
         reviews.add(restaurantReview2);
 
-        Review restaurantReview3 = new Review("very good","Mohammad");
-        restaurantReview3.addStars(5,restaurant);
+        Review restaurantReview3 = new Review("very good","Mohammad",5);
+        restaurantReview3.UpdateStars(restaurantReview3,restaurant);
         reviews.add(restaurantReview3);
 
-        Review restaurantReview4 = new Review("good","Mohammad");
-        restaurantReview4.addStars(4,restaurant);
+        Review restaurantReview4 = new Review("good","Mohammad",4);
+        restaurantReview4.UpdateStars(restaurantReview4,restaurant);
         reviews.add(restaurantReview4);
 
         for (Review r:reviews

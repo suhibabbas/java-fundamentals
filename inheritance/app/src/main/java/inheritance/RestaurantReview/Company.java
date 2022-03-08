@@ -32,6 +32,7 @@ public abstract class Company {
     }
 
     public List<Review> getReviews() {
+
         return reviews;
     }
 

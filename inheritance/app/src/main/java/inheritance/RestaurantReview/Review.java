@@ -5,15 +5,30 @@ import inheritance.RestaurantReview.Catagorys.Stars;
 public class Review implements Stars {
     private final String body;
     private final String author;
+    private int stars;
 
-    public Review(String body, String author) {
+    public Review(String body, String author,int stars) {
         this.body = body;
         this.author = author;
+        this.stars =stars;
+    }
+
+    public String getBody() {
+        return body;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getStars() {
+        return stars;
     }
 
     @Override
-    public void addStars(int stars, Company company) {
-        company.setStar((stars+company.getStar())/2);
+    public void UpdateStars(Review review, Company company) {
+
+        company.setStar((review.getStars()+company.getStar())/2);
     }
 
     @Override
@@ -21,6 +36,7 @@ public class Review implements Stars {
         return "Review{" +
                 "body='" + body + '\'' +
                 ", author='" + author + '\'' +
+                ", stars=" + stars +
                 '}';
     }
 }
