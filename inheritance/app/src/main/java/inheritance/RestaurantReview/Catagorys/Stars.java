@@ -4,5 +4,5 @@ import inheritance.RestaurantReview.Company;
 import inheritance.RestaurantReview.Review;
 
 public interface Stars {
-    void addStars(int stars, Company company);
+    void UpdateStars(Review review, Company company);
 }

@@ -5,20 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60913dd3-b6b7-43fb-af1b-237817edf338" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Catagorys/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Catagorys/Stars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/modules/lib/inheritance.lib.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/java-fundamentals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Catagorys/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Catagorys/Stars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Shops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Catagorys/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Catagorys/Stars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Restaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/inheritance/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +38,21 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,29 +65,105 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="261VudEYV1hBQPAV5Xr9M4jDvA6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../basiclibrary" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Gradle.AppTest">
+    <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="inheritance.App" />
-      <module name="inheritance.lib.main" />
+      <module name="inheritance.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="inheritance.App" />
+      <module name="inheritance.app.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;inheritance.AppTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.appHasAGreeting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;inheritance.AppTest.appHasAGreeting&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.AppTest" />
+      <item itemvalue="Gradle.AppTest.appHasAGreeting" />
+      <item itemvalue="Gradle.AppTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AppTest" />
+        <item itemvalue="Gradle.AppTest.appHasAGreeting" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,5 +186,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/inheritance$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1646772016360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
