@@ -40,7 +40,8 @@ public abstract class Company {
     public String toString() {
         return "Company{" +
                 "name='" + name + '\'' +
-                ", star=" + star +
+                ", star=" + star +'\''+
+                ", review" + getReviews()+
                 '}';
     }
 
