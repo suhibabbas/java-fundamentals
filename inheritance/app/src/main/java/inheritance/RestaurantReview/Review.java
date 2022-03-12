@@ -6,11 +6,20 @@ public class Review implements Stars {
     private final String body;
     private final String author;
     private int stars;
+    private String movieName= "";
 
     public Review(String body, String author,int stars) {
         this.body = body;
         this.author = author;
         this.stars =stars;
+    }
+
+    public String getMovieName() {
+        return movieName;
+    }
+
+    public void setMovieName(String movieName) {
+        this.movieName = movieName;
     }
 
     public String getBody() {
@@ -25,6 +34,7 @@ public class Review implements Stars {
         return stars;
     }
 
+
     @Override
     public void UpdateStars(Review review, Company company) {
 
@@ -33,10 +43,20 @@ public class Review implements Stars {
 
     @Override
     public String toString() {
-        return "Review{" +
-                "body='" + body + '\'' +
-                ", author='" + author + '\'' +
-                ", stars=" + stars +
-                '}';
+        if(movieName.isEmpty()){
+            return "Review{" +
+                    "body='" + body + '\'' +
+                    ", author='" + author + '\'' +
+                    ", stars=" + stars +
+                    '}';
+        }else {
+            return "Review{" +
+                    "body='" + body + '\'' +
+                    ", author='" + author + '\'' +
+                    ", movie Name='" + movieName + '\'' +
+                    ", stars=" + stars +
+                    '}';
+        }
+
     }
 }

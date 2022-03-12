@@ -22,5 +22,13 @@ public class Restaurant extends Company implements Category {
         this.category.add(dish +" "+price+"$");
     }
 
-
+    @Override
+    public String toString() {
+        return "Restaurant{" +
+                "name='" + super.getName()+'\'' +
+                ", stars='" + super.getStar()+'\'' +
+                ", reviews='" + super.getReviews()+'\'' +
+                ", category=" + category +
+                '}';
+    }
 }

@@ -5,29 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60913dd3-b6b7-43fb-af1b-237817edf338" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/java-fundamentals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Catagorys/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Catagorys/Stars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Shops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Theaters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Catagorys/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Catagorys/Stars.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Restaurant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/RestaurantReview/Review.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/inheritance/LibraryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/inheritance/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Shops.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/RestaurantReview/Shops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/app/src/main/java/maps/lab/gates/gates.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/app/src/main/java/maps/lab/gates/gates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,17 +78,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../basiclibrary" />
   </component>
-  <component name="RunManager" selected="Gradle.AppTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="inheritance.App" />
       <module name="inheritance.app.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="inheritance.App" />
-      <module name="inheritance.app.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,7 +134,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.AppTest" />
       <item itemvalue="Gradle.AppTest.appHasAGreeting" />
       <item itemvalue="Gradle.AppTest" />
     </list>
